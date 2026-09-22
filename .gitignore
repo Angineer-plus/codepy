@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# PyCharm / IDE
+.idea/
+*.iml
+
+# 测试与缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 打包与分发
+build/
+dist/
+*.egg-info/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 运行脚本生成的结果图片（可由 TheSortOfRedAlcohol.py 重新生成）
+算法准确率对比.png
+标准化效果对比.png
+K值调优曲线.png
+混淆矩阵.png
